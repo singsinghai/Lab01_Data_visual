@@ -44,4 +44,4 @@ if date not in temp['Date'].unique():
 
 	df['Date'] = date
 	print(df)
-	df.to_csv('covid.csv', mode='a')
+	df.to_csv('covid.csv', mode='a', header=False)
